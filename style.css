@@ -13,18 +13,24 @@ body {
     display: flex; 
     justify-content: space-between;
     align-items: center;
-
     padding: 20px 60px;
     
 }
 .nav-links {
     text-decoration: none;
-    color: #5c5c5c;
+    color: #6e6c6c;
     list-style: none;
     display: flex;
-    gap: 30px;
-    
+    gap: 30px; 
 }
+.nav-links a {
+    text-decoration: none;
+    color: #6e6c6c;
+    list-style: none;
+    display: flex;
+    gap: 30px; 
+}
+
 .register-button {
     text-decoration: none;
     background-color: #2d5bff;
@@ -48,6 +54,9 @@ body {
     justify-content: center;
     align-items: center;
     
+}
+#banner-button {
+    margin-top: 280px;
 }
 .hero h1 {
     color: white;
@@ -93,19 +102,122 @@ body {
     display: block;  
 }
 .speaker-content {
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    padding: 25px;
     text-align: left;
 }
 .category {
-    color: #2d5bff;
+    color: #0a3ae7;
     font-size: 12px;
     font-weight: bold;
     text-transform: uppercase;
 }
 .speaker-content h3 {
-   margin: 10px 0;
-   font-size: 24px;;
+    margin:10px 0;
+    font-size: 24px;;
 }
 .speaker-content p {
+    font-size: 16px;
     color: #666;
 }
+.pricing{
+    padding:80px 60px;
+    text-align:center;
+    font-size: 35px;
+
+}
+.pricing-subtitle {
+    font-size: 16px;
+    color: #5c5c5c;
+    text-align: center;
+}
+.pricing-grid {
+    display:flex;
+    gap: 30px;
+    margin-top:50px;
+    
+}
+.pricing-card {
+    flex:1;
+    padding:35px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    border-color: #ddd;
+}  
+.pricing-card h1{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}  
+.pricing-card h3{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #5c5c5c;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.pricing-card h5 {
+    font-size: 13px;
+    color: #666;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.pricing-card ul { 
+    padding: 0;
+    margin: 25px 0 30px;
+   
+}
+
+.pricing-card li {
+
+    font-size: 13px;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.featured li {
+    color: #c7c6c6;
+    font-style:normal;
+    font-weight: 500;
+}
+.featured {
+    background-color:#0D1B2A;
+    color: white;
+    transform: scale(1.05);
+    transition: 0.5s ease;
+}
+.featured h1 {
+    font-size: 20p;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.featured h3 {
+    color: #93C5FD;
+}
+.featured:hover{
+    transform: translateY(10px);
+}
+#Get-Standard {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px blue;
+    
+}
+#Get-PRO {
+     display: flex;
+    flex-direction: column;
+    border: solid 1px blue;
+}
+#Contact-Us {
+     display: flex;
+    flex-direction: column;
+    border: solid 1px blue;
+}
+
