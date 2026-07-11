@@ -19,7 +19,7 @@ body {
 }
 .nav-links {
     text-decoration: none;
-    color: #222;
+    color: #5c5c5c;
     list-style: none;
     display: flex;
     gap: 30px;
@@ -63,4 +63,49 @@ body {
     max-width: 700px;
     text-align: center;
     margin: 20px 0;
+}
+.speakers {
+    padding: 150px 150px;
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+.speaker-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 30px;
+}
+.speaker-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border:1px solid #ddd;
+    border-radius:10px;
+    overflow:hidden;
+    transition: transform 0.5s ease;
+}
+.speaker-card:hover {
+    transform: translateY(-15px);
+}
+.speaker-card img {
+    width: 100%;
+    display: block;  
+}
+.speaker-content {
+    padding: 20px;
+    text-align: left;
+}
+.category {
+    color: #2d5bff;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.speaker-content h3 {
+   margin: 10px 0;
+   font-size: 24px;;
+}
+.speaker-content p {
+    color: #666;
 }
