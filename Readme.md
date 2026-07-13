@@ -1,0 +1,2 @@
+1) prompt: give me a prompt that relevant to the The section & DevConf 2026 theme.1st you give me a list that suite with my website.
+2) prompt: I want to add 1.Conference Schedule 2.Why Attend DevConf 3.Event Statistics these three in the one section , give me the HTML5 and CSS3 layout.
