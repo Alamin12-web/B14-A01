@@ -98,10 +98,10 @@ body {
     border:1px solid #ddd;
     border-radius:10px;
     overflow:hidden;
-    transition: transform 0.3s ease;
+    transition: transform 0.5s ease;
 }
 .speaker-card:hover {
-    transform: translateY(-15px);
+    transform: translateY(-20px);
 }
 .speaker-card img {
     width: 100%;
@@ -199,8 +199,11 @@ body {
 .featured {
     background-color:#0D1B2A;
     color: white;
-    transform: scale(1.05);
+    transform: scale(1.09);
     transition: 0.3s ease;
+}
+.featured:hover{
+    transform: translateY(-10px);
 }
 .featured h1 {
     font-size: 20p;
@@ -210,9 +213,6 @@ body {
 }
 .featured h3 {
     color: #93C5FD;
-}
-.featured:hover{
-    transform: translateY(10px);
 }
 #Get-Standard { 
     display: block;
