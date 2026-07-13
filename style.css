@@ -175,9 +175,6 @@ body {
     padding-top: 1px;
     padding-bottom: 20px;
 }
-.featured h5 {
-    color: #c7c6c6;
-}
 .pricing-card ul { 
     padding: 0;
     margin: 25px 0 30px;
@@ -199,7 +196,7 @@ body {
 .featured {
     background-color:#0D1B2A;
     color: white;
-    transform: scale(1.09);
+    transform: scale(1.03);
     transition: 0.3s ease;
 }
 .featured:hover{
@@ -213,6 +210,9 @@ body {
 }
 .featured h3 {
     color: #93C5FD;
+}
+.featured h5 {
+    color: #c7c6c6;
 }
 #Get-Standard { 
     display: block;
